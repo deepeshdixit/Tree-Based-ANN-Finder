@@ -62,7 +62,7 @@ int main()
 
     // Invalid value of n
     if (n <= 0)
-        throw invalid_argument("n must be positive");
+        throw invalid_argument("n must be greater than 0");
     if (n > testsz)
         throw out_of_range("n can't be greater than the testing-dataset size");
 
